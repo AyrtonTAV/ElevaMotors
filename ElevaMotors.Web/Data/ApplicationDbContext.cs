@@ -1,0 +1,14 @@
+﻿using ElevaMotors.Web.Models;
+using Microsoft.EntityFrameworkCore;
+
+namespace ElevaMotors.Web.Data
+{
+    public class ApplicationDbContext : DbContext
+    {
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) 
+        {
+        }
+
+        public DbSet<Vehicle> Vehicles { get; set; }
+    }
+}
