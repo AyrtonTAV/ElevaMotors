@@ -1,3 +1,11 @@
+![.NET](https://img.shields.io/badge/.NET%208-5C2D91?logo=dotnet&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-239120?logo=csharp&logoColor=white)
+![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?logo=microsoftsqlserver&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap%205-7952B3?logo=bootstrap&logoColor=white)
+![Visual Studio](https://img.shields.io/badge/Visual%20Studio-5C2D91?logo=visualstudio&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green)
+
+
 # 🚗 ElevaMotors – Sistema de Gestão de Veículos
 
 Sistema Web desenvolvido para gerenciamento completo de veículos para revenda, incluindo controle de entrada, estoque, valores, status, clientes e integração futura com leads.  
