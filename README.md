@@ -5,11 +5,12 @@
 ![Visual Studio](https://img.shields.io/badge/Visual%20Studio-5C2D91?logo=visualstudio&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-
 # 🚗 ElevaMotors – Sistema de Gestão de Veículos
 
 Sistema Web desenvolvido para gerenciamento completo de veículos para revenda, incluindo controle de entrada, estoque, valores, status, clientes e integração futura com leads.  
 O projeto está sendo desenvolvido com foco em **uso real na empresa Eleva Motors** e também como **portfólio profissional** para oportunidades nacionais e internacionais.
+
+---
 
 ## 🛠️ Tecnologias Utilizadas
 
@@ -20,6 +21,8 @@ O projeto está sendo desenvolvido com foco em **uso real na empresa Eleva Motor
 - C# 12
 - Visual Studio 2022
 - Git & GitHub
+
+---
 
 ## 📦 Estrutura do Projeto
 
@@ -33,18 +36,25 @@ ElevaMotors
 ├── wwwroot  
 └── appsettings.json  
 
+---
+
 ## ✨ Funcionalidades
 
 ### ✔ Implementado
-- Modelo Vehicle
-- EF Core configurado
-- Banco criado via migrations
+- Modelo **Vehicle** completo
+- Configuração do **Entity Framework Core**
+- Banco criado via **migrations**
+- **CRUD completo de Veículos**  
+  (Controller + Views gerados via scaffolding com operações de Create, Read, Update e Delete)
 
 ### 🚧 Em desenvolvimento
-- CRUD de veículos
-- Dashboard
-- Leads
-- Relatórios
+- Dashboard do sistema (estoque, lucro e indicadores)
+- Gestão de leads
+- Relatórios financeiros e operacionais
+- Integração com API (futuro)
+- Aplicativo mobile (MAUI)
+
+---
 
 ## 🖥️ Como Rodar
 
@@ -54,7 +64,7 @@ cd ElevaMotors
 dotnet restore
 dotnet ef database update
 dotnet run
-```
+
 
 ## 📄 Licença
 
